@@ -1,0 +1,17 @@
+# ���ö˿�
+server:
+  port: 8081
+dubbo:
+  # ���÷�����Ϣ
+  application:
+    name: dubbo-provider
+    # ����QOSͬһ̨�������ܻ��ж˿ڳ�ͻ����
+    qos-enable: false
+    qos-accept-foreign-ip: false
+  # ����ע������
+  registry:
+    address: nacos://47.98.179.202:8848
+  # ����Э��-Э�����ṩ��ָ�����ѷ���������
+  protocol:
+    name: dubbo
+    port: 20880
