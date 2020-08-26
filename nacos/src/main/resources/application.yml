@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: nacos-discoevry
+
+nacos:
+  config:
+    server-addr:
