@@ -4,4 +4,4 @@ spring:
 
 nacos:
   config:
-    server-addr:
+    server-addr: localhost:8848

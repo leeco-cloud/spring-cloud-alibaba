@@ -10,7 +10,7 @@ dubbo:
     qos-accept-foreign-ip: false
   # 配置注册中心
   registry:
-    address: nacos://47.98.179.202:8848
+    address: nacos://localhost:8848
   # 设置超时时间
   consumer:
     timeout: 4000
